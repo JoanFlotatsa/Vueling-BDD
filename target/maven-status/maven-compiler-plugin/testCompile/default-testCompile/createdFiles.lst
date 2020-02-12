@@ -1,0 +1,9 @@
+vuelingApp\acceptancetests\RunnerBase.class
+vuelingApp\tasks\SearchFlight.class
+vuelingApp\ui\SearchPage.class
+vuelingApp\ui\AppPage.class
+vuelingApp\tasks\OpenTheWebPage.class
+vuelingApp\steps\SearchFlightStepDefinitions.class
+vuelingApp\acceptancetests\AcceptanceTestSuite.class
+vuelingApp\ui\FlightsPage.class
+vuelingApp\questions\Destination.class
