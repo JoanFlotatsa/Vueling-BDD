@@ -1,0 +1,92 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 125501553,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchFlightStepDefinitions.set_the_stage()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Successful search",
+        "description": "",
+        "id": "search-a-flight-from-bcn-to-agp;successful-search",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10860660775,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Miguel wants to book a flight",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Miguel",
+                  "offset": 0
+                }
+              ],
+              "location": "SearchFlightStepDefinitions.user_wants_to_book_a_flight(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 17968382446,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "He looks for a flight from BCN to AGP on 25 of March",
+            "match": {
+              "arguments": [
+                {
+                  "val": "BCN",
+                  "offset": 27
+                },
+                {
+                  "val": "AGP",
+                  "offset": 34
+                }
+              ],
+              "location": "SearchFlightStepDefinitions.he_looks_for_a_flight(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 505741325,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Her travel plan destination should be: Málaga",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Málaga",
+                  "offset": 39
+                }
+              ],
+              "location": "SearchFlightStepDefinitions.he_should_see_her_itinerary(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search a flight from BCN to AGP",
+    "description": "",
+    "id": "search-a-flight-from-bcn-to-agp",
+    "keyword": "Feature",
+    "uri": "src/test/resources/searchFlight.feature",
+    "tags": []
+  }
+]

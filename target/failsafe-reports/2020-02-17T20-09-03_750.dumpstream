@@ -1,0 +1,150 @@
+# Created at 2020-02-17T20:09:04.481
+WARNING: An illegal reflective access operation has occurred
+
+# Created at 2020-02-17T20:09:04.481
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/home/joan/.m2/repository/com/google/inject/guice/4.2.2/guice-4.2.2.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+
+# Created at 2020-02-17T20:09:04.481
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+
+# Created at 2020-02-17T20:09:04.482
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+
+# Created at 2020-02-17T20:09:04.482
+WARNING: All illegal access operations will be denied in a future release
+
+# Created at 2020-02-17T20:09:04.853
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+
+# Created at 2020-02-17T20:09:04.854
+
+
+# Created at 2020-02-17T20:09:04.854
+-------------------------------------------------------------------------------------
+
+# Created at 2020-02-17T20:09:04.854
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+
+# Created at 2020-02-17T20:09:04.855
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+
+# Created at 2020-02-17T20:09:04.855
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+
+# Created at 2020-02-17T20:09:04.855
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+
+# Created at 2020-02-17T20:09:04.855
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+
+# Created at 2020-02-17T20:09:04.856
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+
+# Created at 2020-02-17T20:09:04.856
+                                                                                     
+
+# Created at 2020-02-17T20:09:04.856
+ News and tutorials at http://www.serenity-bdd.info                                  
+
+# Created at 2020-02-17T20:09:04.856
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+
+# Created at 2020-02-17T20:09:04.856
+ Join the Serenity Community on Rocket Chat at https://serenity-bdd.rocket.chat      
+
+# Created at 2020-02-17T20:09:04.857
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+
+# Created at 2020-02-17T20:09:04.857
+ Learn Serenity BDD online at http://serenity-dojo.com                               
+
+# Created at 2020-02-17T20:09:04.857
+-------------------------------------------------------------------------------------
+
+# Created at 2020-02-17T20:09:04.857
+
+
+# Created at 2020-02-17T20:09:04.860
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: Search a flight from BCN to AGP
+
+# Created at 2020-02-17T20:09:05.072
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: Search a flight from BCN to AGP
+
+# Created at 2020-02-17T20:09:05.533
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 80.0.3987.106 (since Google Chrome 80 is installed in your machine)
+
+# Created at 2020-02-17T20:09:05.543
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /home/joan/.m2/repository/webdriver/chromedriver/linux64/80.0.3987.106/chromedriver
+
+# Created at 2020-02-17T20:09:05.577
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+
+# Created at 2020-02-17T20:09:05.578
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+
+# Created at 2020-02-17T20:09:05.578
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+
+# Created at 2020-02-17T20:09:05.578
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+
+# Created at 2020-02-17T20:09:05.578
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+
+# Created at 2020-02-17T20:09:05.578
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+# Created at 2020-02-17T20:09:05.579
+                                                                  
+
+# Created at 2020-02-17T20:09:05.579
+
+
+# Created at 2020-02-17T20:09:05.579
+TEST STARTED: Successful search
+
+# Created at 2020-02-17T20:09:05.580
+-------------------------------------------------------------------(search-a-flight-from-bcn-to-agp;successful-search)
+
+# Created at 2020-02-17T20:09:06.700
+[main] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+
+# Created at 2020-02-17T20:09:06.702
+[main] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+
+# Created at 2020-02-17T20:09:38.014
+[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+
+# Created at 2020-02-17T20:09:38.015
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+
+# Created at 2020-02-17T20:09:38.015
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+
+# Created at 2020-02-17T20:09:38.015
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+
+# Created at 2020-02-17T20:09:38.015
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+
+# Created at 2020-02-17T20:09:38.016
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+
+# Created at 2020-02-17T20:09:38.016
+          \_\                                                            
+
+# Created at 2020-02-17T20:09:38.016
+
+
+# Created at 2020-02-17T20:09:38.016
+TEST FAILED: Successful search
+
+# Created at 2020-02-17T20:09:38.017
+--------------------------------------------------------------------------
+
+# Created at 2020-02-17T20:09:38.089
+[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Miguel search flight
+
+# Created at 2020-02-17T20:09:38.089
+[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - Expected: an element that is visible but: no matching element found by xpath: /html/body/form/div[2]/div[3]/div/div[2]/div/div[5]/div/div[1]/h3
+
