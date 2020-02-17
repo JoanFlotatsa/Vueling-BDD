@@ -19,5 +19,7 @@ public class SearchPage {
             .located(By.xpath("//*[@id='tab-search']/div/form/div[1]/div[1]/div[1]/input"));
     public static Target SEARCH_DESTINATION = Target.the("search destination")
             .located(By.xpath("//*[@id='tab-search']/div/form/div[1]/div[2]/div[1]/input"));
+    public static Target DATE = Target.the("date").
+            located(By.xpath("/html/body/div[3]/div[1]/vy-index-search/div/div[2]/div/div[4]/div[3]/div/div[2]/table/tbody/tr[5]/td[3]"));
 }
 

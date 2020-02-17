@@ -34,6 +34,7 @@ public class SearchFlight implements Performable {
                 SendKeys.of(destination)
                         .into(SearchPage.SEARCH_DESTINATION),
                 Click.on(SearchPage.DESTINATION_OPTION),
+                Click.on(SearchPage.DATE),
                 Click.on(SearchPage.SEARCH_BUTTON),
                 WaitUntil.the(FlightsPage.DESTINATION, isVisible())
         );

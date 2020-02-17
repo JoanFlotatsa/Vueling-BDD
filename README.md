@@ -5,6 +5,8 @@ Búsqueda de un vuelo en vueling.com con Serenity y Cucumber
 
 Ejecutar: ``mvn verify``
 
+`Error: Vueling realiza una prueba A/B en la página de vuelos, puede fallar si redirecciona a la nueva página`
+
 En /src/test/java/acceptancetest/RunnerBase se encuentra la config del WebDriverManager
 
 https://github.com/bonigarcia/webdrivermanager 

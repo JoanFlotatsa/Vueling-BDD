@@ -35,7 +35,7 @@ public class SearchFlightStepDefinitions {
 
     }
 
-    @When("He looks for a flight from {word} to {word}")
+    @When("He looks for a flight from {word} to {word} on 25 of March")
     public static void he_looks_for_a_flight(String origin, String destination) {
 
         theActorInTheSpotlight().attemptsTo(SearchFlight.to(origin, destination));
@@ -45,7 +45,7 @@ public class SearchFlightStepDefinitions {
     @Then("Her travel plan destination should be: {word}")
     public static void he_should_see_her_itinerary(String destination) {
 
-        theActorInTheSpotlight().should(seeThat("Title is", Destination.value(), is(equalTo(destination))));
+        theActorInTheSpotlight().should(seeThat("her destination", Destination.value(), is(equalTo(destination))));
 
     }
 
